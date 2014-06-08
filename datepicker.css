@@ -1,0 +1,48 @@
+#calendar_element {
+	border: 1px solid #444;
+	padding: 4px;
+	background-color: white;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 999;
+}
+#calendar_table {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	border-collapse: separate;
+}
+#calendar_table th {
+	text-align: center;
+	font-size: 12px;
+}
+#calendar_table td {
+	cursor: pointer;
+}
+#calendar_table td.normal {
+	background-color: #DDD;
+	border: 1px solid white;
+}
+#calendar_table td.weekend {
+	background-color: yellow;
+	border: 1px solid white;
+}
+#calendar_table td.dimmed {
+	color: gray;
+}
+#calendar_table td.selected {
+	border-color: red;
+}
+#calendar_navigation {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+}
+#calendar_navigation td.nav {
+	width: 15px;
+	cursor: pointer;
+}
